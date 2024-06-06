@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://api-user-git-master-daliosys-projects.vercel.app/",
+  baseURL: "https://api-user-topaz.vercel.app/",
 });
 
 export default api;
