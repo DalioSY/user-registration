@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import api from "../../services/api";
 import { Article, Container, Form, H1, Main, Section } from "./style";
+import "boxicons";
 
 export const Home = () => {
   const [users, setUsers] = useState([]);
@@ -35,20 +36,34 @@ export const Home = () => {
     <Main>
       <Container>
         <Form>
-          <H1>User Registration</H1>
-          <input placeholder="Nome" name="Name" type="text" ref={inputName} />
-          <input placeholder="Idade" name="Age" type="text" ref={inputAge} />
-          <input
-            placeholder="E-mail"
-            name="E-mail"
-            type="email"
-            ref={inputEmail}
-          />
+          <H1>Registration</H1>
+
+          <div>
+            <box-icon name="user" color="#e5e5e5"></box-icon>
+            <input placeholder="Nome" name="Name" type="text" ref={inputName} />
+          </div>
+          <div>
+            <box-icon
+              name="baby-carriage"
+              type="solid"
+              color="#e5e5e5"
+            ></box-icon>
+            <input placeholder="Idade" name="Age" type="text" ref={inputAge} />
+          </div>
+          <div>
+            <box-icon name="envelope" color="#e5e5e5"></box-icon>
+            <input
+              placeholder="E-mail"
+              name="E-mail"
+              type="email"
+              ref={inputEmail}
+            />
+          </div>
           <button type="button" onClick={createUsers}>
             Cadastrar
           </button>
         </Form>
-        <div>
+        <div className="form-itens">
           {users.map((user) => (
             <Section key={user.id}>
               <Article>
@@ -62,7 +77,9 @@ export const Home = () => {
                   email: <span>{user.email} </span>
                 </p>
               </Article>
-              <button onClick={() => deleteUsers(user.id)}>Excluir</button>
+              <button onClick={() => deleteUsers(user.id)}>
+                <box-icon name="trash-alt" color="#ffffff"></box-icon>
+              </button>
             </Section>
           ))}
         </div>
