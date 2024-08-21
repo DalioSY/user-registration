@@ -5,7 +5,6 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Header } from '@/components/main/Header';
-import { ModeToggle } from '@/components/mode-toggle';
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -38,7 +37,6 @@ export default function RootLayout({
         >
           <div className='flex items-center justify-center gap-4 pt-4'>
             <Header />
-            <ModeToggle />
           </div>
           {children}
         </ThemeProvider>

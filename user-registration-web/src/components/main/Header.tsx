@@ -1,4 +1,4 @@
-import { Slash } from "lucide-react";
+import { Slash } from 'lucide-react';
 
 import {
   Breadcrumb,
@@ -7,14 +7,15 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb";
+} from '@/components/ui/breadcrumb';
+import { ModeToggle } from '../mode-toggle';
 
 export function Header() {
   return (
-    <Breadcrumb>
+    <Breadcrumb className='fixed top-0 z-10 bg-transparent flex items-center gap-5 p-5 '>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <BreadcrumbLink href="/">
+          <BreadcrumbLink href='/'>
             <BreadcrumbPage>Home</BreadcrumbPage>
           </BreadcrumbLink>
         </BreadcrumbItem>
@@ -22,11 +23,12 @@ export function Header() {
           <Slash />
         </BreadcrumbSeparator>
         <BreadcrumbItem>
-          <BreadcrumbLink href="/user">
-            <BreadcrumbPage>User</BreadcrumbPage>
+          <BreadcrumbLink href='/list'>
+            <BreadcrumbPage>List</BreadcrumbPage>
           </BreadcrumbLink>
         </BreadcrumbItem>
       </BreadcrumbList>
+      <ModeToggle />
     </Breadcrumb>
   );
 }
