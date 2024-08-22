@@ -28,6 +28,8 @@ Aqui estão algumas imagens do projeto:
     <img src="./img/git-2.png" alt="Imagem 2" width="250"/>
     <img src="./img/git-3.png" alt="Imagem 3" width="250"/>
     <img src="./img/git-4.png" alt="Imagem 4" width="250"/>
+    <img src="./img/git-5.png" alt="Imagem 5" width="250"/>
+    <img src="./img/git-6.png" alt="Imagem 6" width="250"/>
 </div>
 
 ## Funcionalidades
