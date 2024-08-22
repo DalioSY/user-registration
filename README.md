@@ -1,5 +1,7 @@
 # User Registration
 
+Este repositório contém um sistema robusto de registro de usuários, projetado para realizar operações de criação, leitura, atualização e exclusão (CRUD) de contas de forma eficiente. Desenvolvido com tecnologias modernas como Next.js, React.js, Node.js e MongoDB, o projeto foca em entregar uma interface amigável, garantindo uma experiência de usuário ágil e confiável. Além disso, o design do sistema foi cuidadosamente elaborado utilizando componentes do Shadcn, proporcionando uma aparência moderna e uma navegação intuitiva.
+
 ## Índice
 
 - [Visão Geral](#visão-geral)
@@ -17,7 +19,9 @@
 
 ## Visão Geral
 
-Este projeto é um sistema de registro de usuários que permite a criação, leitura, atualização e exclusão de contas de usuários (CRUD). O sistema foi desenvolvido utilizando Next.js, React.js, Node.js, MongoDB e outras tecnologias, com foco em segurança e usabilidade. O objetivo é proporcionar uma interface intuitiva para que os usuários possam gerenciar suas contas de forma eficiente e segura.
+Este projeto consiste em um sistema de gerenciamento de usuários, oferecendo funcionalidades completas de criação, leitura, atualização e exclusão de contas (CRUD). Desenvolvido com Next.js, React.js, Node.js e MongoDB. O objetivo principal é proporcionar uma interface intuitiva, permitindo que os usuários gerenciem suas contas.
+
+> Deploy: https://user-registration-web.vercel.app/
 
 ## Imagens
 
@@ -34,10 +38,10 @@ Aqui estão algumas imagens do projeto:
 
 ## Funcionalidades
 
-- CRUD completo para contas de usuários
-- Integrado ao banco de dado
-- Design utilizadi do shadcn
-- Carregamento rápido
+- CRUD completo para gerenciamento de contas de usuários.
+- Integração com banco de dados para armazenamento e recuperação de informações.
+- Design moderno e estilizado utilizando componentes do Shadcn.
+- Carregamento otimizado para uma experiência de usuário ágil.
 
 ## Tecnologias Utilizadas
 

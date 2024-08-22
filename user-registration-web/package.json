@@ -2,6 +2,10 @@
   "name": "user-registration",
   "version": "0.1.0",
   "private": true,
+  "keywords": [
+    "next.js, react, typescript, tailwindcss, axios, shadcn-ui"
+  ],
+  "author": "dalio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
